@@ -1,0 +1,43 @@
+[
+    {
+        "selector": "node",
+        "style": {
+            "height": "data(size)",
+            "width": "data(size)",
+            "background-color": "#ccc",
+            "background-fit": "cover"
+        }
+    },
+    {
+        "selector": "edge",
+        "style": {
+            "label": "data(label)",
+            "width": 3,
+            "line-color": "#fff",
+            "opacity": 0.3
+        }
+    },
+    {
+        "selector": ".autorotate",
+        "style": {
+            "edge-text-rotation": "autorotate"
+        }
+    },
+    {
+        "selector": ".background",
+        "style": {
+            "text-background-opacity": 1,
+            "text-background-color": "#ccc",
+            "text-background-shape": "roundrectangle",
+            "text-border-color": "#000",
+            "text-border-width": 1,
+            "text-border-opacity": 1
+        }
+    },
+    {
+        "selector": ".multiline",
+        "style": {
+            "text-wrap": "wrap"
+        }
+    }
+]

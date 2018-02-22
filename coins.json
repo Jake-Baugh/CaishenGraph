@@ -1,0 +1,1168 @@
+{
+    "edges": [
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ADA",
+                "source": "BTC",
+                "target": "ADA",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ARDR",
+                "source": "BTC",
+                "target": "ARDR",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ARK",
+                "source": "BTC",
+                "target": "ARK",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-BAT",
+                "source": "BTC",
+                "target": "BAT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-BCC",
+                "source": "BTC",
+                "target": "BCC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-BLOCK",
+                "source": "BTC",
+                "target": "BLOCK",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-BTG",
+                "source": "BTC",
+                "target": "BTG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-DASH",
+                "source": "BTC",
+                "target": "DASH",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-DGB",
+                "source": "BTC",
+                "target": "DGB",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-DOGE",
+                "source": "BTC",
+                "target": "DOGE",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ETC",
+                "source": "BTC",
+                "target": "ETC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ETH",
+                "source": "BTC",
+                "target": "ETH",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-FCT",
+                "source": "BTC",
+                "target": "FCT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-FUN",
+                "source": "BTC",
+                "target": "FUN",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-GNT",
+                "source": "BTC",
+                "target": "GNT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-HMQ",
+                "source": "BTC",
+                "target": "HMQ",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-KMD",
+                "source": "BTC",
+                "target": "KMD",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-LSK",
+                "source": "BTC",
+                "target": "LSK",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-LTC",
+                "source": "BTC",
+                "target": "LTC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-MCO",
+                "source": "BTC",
+                "target": "MCO",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-NEO",
+                "source": "BTC",
+                "target": "NEO",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-NXT",
+                "source": "BTC",
+                "target": "NXT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-OMG",
+                "source": "BTC",
+                "target": "OMG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-PAY",
+                "source": "BTC",
+                "target": "PAY",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-QTUM",
+                "source": "BTC",
+                "target": "QTUM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-REP",
+                "source": "BTC",
+                "target": "REP",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-SALT",
+                "source": "BTC",
+                "target": "SALT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-SC",
+                "source": "BTC",
+                "target": "SC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-SLR",
+                "source": "BTC",
+                "target": "SLR",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-SNT",
+                "source": "BTC",
+                "target": "SNT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-STEEM",
+                "source": "BTC",
+                "target": "STEEM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-STRAT",
+                "source": "BTC",
+                "target": "STRAT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-VIB",
+                "source": "BTC",
+                "target": "VIB",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-VTC",
+                "source": "BTC",
+                "target": "VTC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-WAVES",
+                "source": "BTC",
+                "target": "WAVES",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-XEM",
+                "source": "BTC",
+                "target": "XEM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-XLM",
+                "source": "BTC",
+                "target": "XLM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-XMR",
+                "source": "BTC",
+                "target": "XMR",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-XRP",
+                "source": "BTC",
+                "target": "XRP",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-XVG",
+                "source": "BTC",
+                "target": "XVG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ZCL",
+                "source": "BTC",
+                "target": "ZCL",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ZEC",
+                "source": "BTC",
+                "target": "ZEC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "BTC-ZEN",
+                "source": "BTC",
+                "target": "ZEN",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-ADA",
+                "source": "ETH",
+                "target": "ADA",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-BAT",
+                "source": "ETH",
+                "target": "BAT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-BCC",
+                "source": "ETH",
+                "target": "BCC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-BTG",
+                "source": "ETH",
+                "target": "BTG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-DASH",
+                "source": "ETH",
+                "target": "DASH",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-DGB",
+                "source": "ETH",
+                "target": "DGB",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-ETC",
+                "source": "ETH",
+                "target": "ETC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-FCT",
+                "source": "ETH",
+                "target": "FCT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-FUN",
+                "source": "ETH",
+                "target": "FUN",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-GNT",
+                "source": "ETH",
+                "target": "GNT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-HMQ",
+                "source": "ETH",
+                "target": "HMQ",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-LTC",
+                "source": "ETH",
+                "target": "LTC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-MCO",
+                "source": "ETH",
+                "target": "MCO",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-NEO",
+                "source": "ETH",
+                "target": "NEO",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-OMG",
+                "source": "ETH",
+                "target": "OMG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-PAY",
+                "source": "ETH",
+                "target": "PAY",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-QTUM",
+                "source": "ETH",
+                "target": "QTUM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-REP",
+                "source": "ETH",
+                "target": "REP",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-SALT",
+                "source": "ETH",
+                "target": "SALT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-SC",
+                "source": "ETH",
+                "target": "SC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-SNT",
+                "source": "ETH",
+                "target": "SNT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-STRAT",
+                "source": "ETH",
+                "target": "STRAT",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-VIB",
+                "source": "ETH",
+                "target": "VIB",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-WAVES",
+                "source": "ETH",
+                "target": "WAVES",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-XEM",
+                "source": "ETH",
+                "target": "XEM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-XLM",
+                "source": "ETH",
+                "target": "XLM",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-XMR",
+                "source": "ETH",
+                "target": "XMR",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-XRP",
+                "source": "ETH",
+                "target": "XRP",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "ETH-ZEC",
+                "source": "ETH",
+                "target": "ZEC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-BCC",
+                "source": "USDT",
+                "target": "BCC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-BTC",
+                "source": "USDT",
+                "target": "BTC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-BTG",
+                "source": "USDT",
+                "target": "BTG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-DASH",
+                "source": "USDT",
+                "target": "DASH",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-ETC",
+                "source": "USDT",
+                "target": "ETC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-ETH",
+                "source": "USDT",
+                "target": "ETH",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-LTC",
+                "source": "USDT",
+                "target": "LTC",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-NEO",
+                "source": "USDT",
+                "target": "NEO",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-OMG",
+                "source": "USDT",
+                "target": "OMG",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-XMR",
+                "source": "USDT",
+                "target": "XMR",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-XRP",
+                "source": "USDT",
+                "target": "XRP",
+                "trade": 1
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 1,
+                "id": "USDT-ZEC",
+                "source": "USDT",
+                "target": "ZEC",
+                "trade": 1
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "data": {
+                "balance": 1,
+                "id": "ADA",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ARDR",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ARK",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "BAT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "BCC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "BLOCK",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "BTC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "BTG",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "DASH",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "DGB",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "DOGE",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ETC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ETH",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "FCT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "FUN",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "GNT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "HMQ",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "KMD",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "LSK",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "LTC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "MCO",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "NEO",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "NXT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "OMG",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "PAY",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "QTUM",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "REP",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "SALT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "SC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "SLR",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "SNT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "STEEM",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "STRAT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "USDT",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "VIB",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "VTC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "WAVES",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "XEM",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "XLM",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "XMR",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "XRP",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "XVG",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ZCL",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ZEC",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ZEN",
+                "size": "30px"
+            }
+        },
+        {
+            "data": {
+                "balance": 1,
+                "id": "ZRX",
+                "size": "30px"
+            }
+        }
+    ]
+}
