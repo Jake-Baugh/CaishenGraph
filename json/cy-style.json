@@ -2,8 +2,6 @@
     {
         "selector": "node",
         "style": {
-            "height": "data(size)",
-            "width": "data(size)",
             "background-color": "#ccc",
             "background-fit": "cover"
         }
@@ -11,7 +9,6 @@
     {
         "selector": "edge",
         "style": {
-            "label": "data(label)",
             "width": 3,
             "line-color": "#fff",
             "opacity": 0.3

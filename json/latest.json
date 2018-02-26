@@ -1,0 +1,57 @@
+{
+    "edges": [
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 0.03705893084406853,
+                "id": "BTC-ETH",
+                "source": "BTC",
+                "target": "ETH",
+                "trade": 0.03705893084406853
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 16400.373046875,
+                "id": "USDT-BTC",
+                "source": "USDT",
+                "target": "BTC",
+                "trade": 16400.373046875
+            }
+        },
+        {
+            "classes": "autorotate",
+            "data": {
+                "exchange_val": 611.56591796875,
+                "id": "USDT-ETH",
+                "source": "USDT",
+                "target": "ETH",
+                "trade": 611.56591796875
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "data": {
+                "balance": 2.6843802061193855e-06,
+                "id": "BTC",
+                "size": "34.09015655517578 px"
+            }
+        },
+        {
+            "data": {
+                "balance": 4.166366852587089e-05,
+                "id": "ETH",
+                "size": "28.10442543029785 px"
+            }
+        },
+        {
+            "data": {
+                "balance": 0.05597972497344017,
+                "id": "USDT",
+                "size": "37.805419921875 px"
+            }
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-d3.json("chart.json", function(error, dataRaw){
+d3.json("json/chart.json", function(error, dataRaw){
 	
 	
 var chart = document.getElementById("chart");	
