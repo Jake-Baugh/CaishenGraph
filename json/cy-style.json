@@ -2,7 +2,6 @@
     {
         "selector": "node",
         "style": {
-            "background-color": "#ccc",
             "background-fit": "cover"
         }
     },

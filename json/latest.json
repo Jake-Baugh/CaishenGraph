@@ -3,54 +3,54 @@
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 0.03705893084406853,
+                "exchange_val": 0.09943409264087677,
                 "id": "BTC-ETH",
                 "source": "BTC",
                 "target": "ETH",
-                "trade": 0.03705893084406853
+                "trade": 0.09943409264087677
             }
         },
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 16400.373046875,
+                "exchange_val": 14275.0,
                 "id": "USDT-BTC",
                 "source": "USDT",
                 "target": "BTC",
-                "trade": 16400.373046875
+                "trade": 14275.0
             }
         },
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 611.56591796875,
+                "exchange_val": 1404.0,
                 "id": "USDT-ETH",
                 "source": "USDT",
                 "target": "ETH",
-                "trade": 611.56591796875
+                "trade": 1404.0
             }
         }
     ],
     "nodes": [
         {
             "data": {
-                "balance": 2.6843802061193855e-06,
+                "balance": 1.786336270015454e-06,
                 "id": "BTC",
-                "size": "34.09015655517578 px"
+                "size": "39.92543029785156 px"
             }
         },
         {
             "data": {
-                "balance": 4.166366852587089e-05,
+                "balance": 1.037201400322374e-05,
                 "id": "ETH",
-                "size": "28.10442543029785 px"
+                "size": "31.37885856628418 px"
             }
         },
         {
             "data": {
-                "balance": 0.05597972497344017,
+                "balance": 0.011128501035273075,
                 "id": "USDT",
-                "size": "37.805419921875 px"
+                "size": "28.695709228515625 px"
             }
         }
     ]
