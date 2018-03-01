@@ -7,6 +7,7 @@ var data = [];
 
 data.push($.getJSON('json/cy-style.json'));
 data.push($.getJSON('json/latest.json'));
+var total_usd = 0;
 
 var cy = window.cy = cytoscape({
     container: $('#cy'),
@@ -28,19 +29,47 @@ var cy = window.cy = cytoscape({
     }
 });
 
+var on_nodes = [];
+
+cy.on('cxttap', function(event){
+	var eventTarget = event.target;
+	if (eventTarget === cy){
+		//Destroy all pie nodes
+		
+	} else if (eventTarget.isNode()){
+		if (on_nodes.includes(eventTarget)){
+			on_nodes.pop(eventTarget);
+			eventTarget.css({
+				'pie-1-background-opacity': 0,
+			});
+		} else {
+			on_nodes.push(eventTarget);
+			}
+
+	}	
+});
+
 setInterval(function () {
 
     $.getJSON('json/latest.json', function (data) {
-
+		total_usd = data['global']['total_usd']
         cy.json({elements: data});
         cy.nodes().forEach(function (ele) {
-
             setSize(ele);
 
         });
+				for (var i = 0; i < on_nodes.length; i++){
+			on_nodes[i].css({
+				'pie-1-background-opacity': 0.8,
+				'pie-1-background-color': '#1e2b34',
+				'pie-1-background-size': 100 - 100 * on_nodes[i].data('balance_usd') / total_usd
+
+			});
+	  
+		}
     });
 
-}, 1900);
+}, 500);
 
 function setSize(ele) {
 
@@ -49,7 +78,7 @@ function setSize(ele) {
             style: {
                 width: ele.data('size'), height: ele.data('size') 
             },
-            duration: 1000,
+            duration: 400,
             easing: 'ease-in-out'
         }
     );
