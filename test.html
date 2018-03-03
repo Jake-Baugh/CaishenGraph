@@ -17,13 +17,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="css/chart.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.1/d3.min.js"></script>
-  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
-  <script src="https://unpkg.com/d3fc@13.0.1"></script>
-
 </head>
 
 <body>
@@ -36,15 +29,18 @@
                     <span class="coin-page__symbol">BTC</span>
                 </div>
                 <div class="coin-page__price">
-                        <span class="coin-page__price-number">11,210.54</span>
+                        <span class="coin-page__price-number" id="balance">0</span>
                     </div>
                 <div class="coin-page__price">
                     <span class="coin-page__price-sign">$</span>
-                    <span class="coin-page__price-number">11,210.54</span>
+                    <span class="coin-page__price-number" id="balanceUSD">0</span>
                 </div>
                 <div class="coin-page__price">
                         <span class="coin-page__price-sign">₿</span>
-                        <span class="coin-page__price-number">11,210.54</span>
+                        <span class="coin-page__price-number" id="balanceBTC">0</span>
+                    </div>
+                    <div class="coin-page__price">
+                        <span class="coin-page__price-number" id="date">0</span>
                     </div>
                 <div class="announcement announcement--sponsored">
                     <!-- /8691100/Coinranking_S2S_AnnouncementTextlink -->
@@ -98,8 +94,8 @@
 
     <div class="container">
         <div class="row">
-                <div class="col-5" id="cy"></div>     
-                <div class="col-7" id="chart"></div>
+                <div class="col-7" id="cy"></div>     
+                <div class="col-5" id="chart"></div>
         </div>
     </div>
 
@@ -108,8 +104,7 @@
 
     <script src="js/cytoscape-cola.js"></script>
     <script src="js/cytoscape-qtip.js"></script>
-    <script src="js/color.js"></script>
-    <script src="js/chart.js"></script>
+
 
 </body>
 

@@ -3,11 +3,18 @@ $.ajaxSetup({
     cache: false
 });
 
-var data = []; 
+var data = [];
 
 data.push($.getJSON('json/cy-style.json'));
 data.push($.getJSON('json/latest.json'));
 var total_usd = 0;
+
+var ticker = $('.coin-page__symbol');
+var symbol = $('.coin-page__icon-img');
+var balanceTicker = $('#balance');
+var balanceUSDTicker = $('#balanceUSD');
+var balanceBTCTicker = $('#balanceBTC');
+var dateTicker = $('date');
 
 var cy = window.cy = cytoscape({
     container: $('#cy'),
@@ -20,7 +27,7 @@ var cy = window.cy = cytoscape({
         infinite: true,
         fit: false
     },
-    ready: function(){
+    ready: function () {
         cy.elements().forEach(function (ele) {
             setSize(ele);
             setImage(ele);
@@ -29,61 +36,84 @@ var cy = window.cy = cytoscape({
     }
 });
 
-cy.on('tap', 'node', function(evt){
-var on_nodes = [];
-    var node = evt.target;
-    
-    var ticker = $('.coin-page__symbol');
-    var symbol = $('.coin-page__icon-img');
+var onNode = null;
 
-cy.on('cxttap', function(event){
-	var eventTarget = event.target;
-	if (eventTarget === cy){
-		//Destroy all pie nodes
-		
-	} else if (eventTarget.isNode()){
-		if (on_nodes.includes(eventTarget)){
-			on_nodes.pop(eventTarget);
-			eventTarget.css({
-				'pie-1-background-opacity': 0,
-			});
-		} else {
-			on_nodes.push(eventTarget);
-			}
+cy.on('tap', 'node', function (evt) {
+
+    var node = evt.target;
+
+    onNode = node;
 
     ticker.text(node.id());
     symbol.attr("src", "img/svg/" + node.id().toLowerCase() + ".svg");
-	}	
+
+
+    updateTicker(node);
+
+
 });
 
+var onNodes = [];
+
+cy.on('cxttap', function (event) {
+    var eventTarget = event.target;
+    if (eventTarget === cy) {
+        //Destroy all pie nodes
+
+    } else if (eventTarget.isNode()) {
+        if (onNodes.includes(eventTarget)) {
+            onNodes.pop(eventTarget);
+            eventTarget.css({
+                'pie-1-background-opacity': 0,
+            });
+        } else {
+            onNodes.push(eventTarget);
+            updateNodes();
+        }
+
+    }
+});
 
 setInterval(function () {
 
     $.getJSON('json/latest.json', function (data) {
-		total_usd = data['global']['total_usd']
-        cy.json({elements: data});
+        total_usd = data['global']['total_usd'];
+        cy.json({ elements: data });
         cy.nodes().forEach(function (ele) {
             setSize(ele);
         });
-				for (var i = 0; i < on_nodes.length; i++){
-			on_nodes[i].css({
-				'pie-1-background-opacity': 0.8,
-				'pie-1-background-color': '#1e2b34',
-				'pie-1-background-size': 100 - 100 * on_nodes[i].data('balance_usd') / total_usd
 
-			});
-	  
-		}
+        updateNodes();
+        updateTicker(onNode);
     });
 
 }, 500);
+
+function updateNodes() {
+    for (var i = 0; i < onNodes.length; i++) {
+        onNodes[i].css({
+            'pie-1-background-opacity': 0.8,
+            'pie-1-background-color': '#1e2b34',
+            'pie-1-background-size': 100 - 100 * onNodes[i].data('balance_usd') / total_usd
+
+        });
+
+    }
+}
+
+function updateTicker(node) {
+
+    balanceTicker.text(round(node.data('balance'), 8));
+    balanceUSDTicker.text(round(node.data('balance_usd'), 2));
+
+}
 
 function setSize(ele) {
 
     ele.animate(
         {
             style: {
-                width: ele.data('size'), height: ele.data('size') 
+                width: ele.data('size'), height: ele.data('size')
             },
             duration: 400,
             easing: 'ease-in-out'
@@ -93,7 +123,11 @@ function setSize(ele) {
 
 function setImage(ele) {
 
-    var icon = "img/white/" + ele.data('id'.toLowerCase()) + '.png';    
-    ele.style('background-color', window.getComputedStyle(document.body, null).getPropertyValue('background-color'));
+    var icon = "img/white/" + ele.data('id'.toLowerCase()) + '.png';
+    ele.style('background-color', 'black');
     ele.style('background-image', icon);
 }
+
+function round(value, decimals) {
+    return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+  }

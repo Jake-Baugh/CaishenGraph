@@ -14,8 +14,9 @@ body, html {
 }
 
 #cy {
-   
-
+    background: #1e2b34;
+   border-radius: 20px;
+    height:300px;
     left: 0;
     top:20;
     z-index: 999;
