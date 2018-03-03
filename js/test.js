@@ -8,13 +8,14 @@ var data = [];
 data.push($.getJSON('json/cy-style.json'));
 data.push($.getJSON('json/latest.json'));
 var total_usd = 0;
+var date;
 
 var ticker = $('.coin-page__symbol');
 var symbol = $('.coin-page__icon-img');
 var balanceTicker = $('#balance');
 var balanceUSDTicker = $('#balanceUSD');
 var balanceBTCTicker = $('#balanceBTC');
-var dateTicker = $('date');
+var dateTicker = $('#date');
 
 var cy = window.cy = cytoscape({
     container: $('#cy'),
@@ -47,9 +48,7 @@ cy.on('tap', 'node', function (evt) {
     ticker.text(node.id());
     symbol.attr("src", "img/svg/" + node.id().toLowerCase() + ".svg");
 
-
     updateTicker(node);
-
 
 });
 
@@ -78,6 +77,7 @@ setInterval(function () {
 
     $.getJSON('json/latest.json', function (data) {
         total_usd = data['global']['total_usd'];
+        date = data['global']['date'];
         cy.json({ elements: data });
         cy.nodes().forEach(function (ele) {
             setSize(ele);
@@ -105,6 +105,7 @@ function updateTicker(node) {
 
     balanceTicker.text(round(node.data('balance'), 8));
     balanceUSDTicker.text(round(node.data('balance_usd'), 2));
+    dateTicker.text(date.toString());
 
 }
 
