@@ -3,60 +3,62 @@
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 0.039639998227357864,
+                "exchange_val": 0.06426256895065308,
                 "id": "BTC-ETH",
                 "source": "BTC",
                 "target": "ETH",
-                "trade": 0.039639998227357864
+                "trade": 0.06426256895065308
             }
         },
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 18422.0,
+                "exchange_val": 14349.087890625,
                 "id": "USDT-BTC",
                 "source": "USDT",
                 "target": "BTC",
-                "trade": 18422.0
+                "trade": 14349.087890625
             }
         },
         {
             "classes": "autorotate",
             "data": {
-                "exchange_val": 733.7146606445312,
+                "exchange_val": 920.02001953125,
                 "id": "USDT-ETH",
                 "source": "USDT",
                 "target": "ETH",
-                "trade": 733.7146606445312
+                "trade": 920.02001953125
             }
         }
     ],
     "global": {
-        "total_usd": 2.5721325129270554
+        "date": "2018/01/02 04:00",
+        "run_name": "RUNNAME HERE",
+        "total_usd": 1.140774101484567
     },
     "nodes": [
         {
             "data": {
-                "balance": 5.757068720413372e-05,
-                "balance_usd": 1.0700517892837524,
+                "balance": 1.9718652310984908e-07,
+                "balance_usd": 0.0025465008802711964,
                 "id": "BTC",
-                "size": "36.64069366455078 px"
+                "size": "30.05046272277832 px"
             }
         },
         {
             "data": {
-                "balance": 0.00014665789785794914,
-                "balance_usd": 0.10785846412181854,
+                "balance": 8.850402082316577e-06,
+                "balance_usd": 0.007328290492296219,
                 "id": "ETH",
-                "size": "21.677339553833008 px"
+                "size": "30.08560562133789 px"
             }
         },
         {
             "data": {
-                "balance": 1.3895915746688843,
-                "balance_usd": 1.3942222595214844,
+                "balance": 1.1308993101119995,
+                "balance_usd": 1.1308993101119995,
                 "id": "USDT",
-                "size": "41.681968688964844 px"
+                "size": "31.063438415527344 px"
             }
         }
     ]
