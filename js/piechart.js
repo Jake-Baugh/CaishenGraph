@@ -12,7 +12,7 @@ svg.append("g")
 svg.append("g")
 	.attr("class", "lines");
 
-var width = 500,
+var width = 400,
     height = 300,
 	radius = Math.min(width, height) / 2;
 
