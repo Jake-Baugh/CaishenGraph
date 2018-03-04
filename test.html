@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/cyto.css" />
     <link rel="stylesheet" href="css/test.css" />
-	<link rel="stylesheet" href="css/pie.css" />
+    <link rel="stylesheet" href="css/pie.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.8/cytoscape.js"></script>
     <script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script>
@@ -12,32 +12,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
     <script src="https://cdn.rawgit.com/ToucanToco/sparklines/master/dist/tc-sparklines.js"></script>
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
 </head>
 
 <body>
-    
-    <div class="header header--coin-page">
-       
-                <img class="coin-page__icon-img" src="https://cdn.coinranking.com/Sy33Krudb/btc.svg" alt="Bitcoin (BTC) icon" width="40" height="40">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header header--coin-page">
+
+                <img class="coin-page__icon-img" src="https://cdn.coinranking.com/Sy33Krudb/btc.svg" alt="Bitcoin (BTC) icon" width="40"
+                    height="40">
                 <div class="coin-page__name">
                     Bitcoin
                     <span class="coin-page__symbol">BTC</span>
                 </div>
                 <div class="coin-page__price">
-                        <span class="coin-page__price-number" id="balance">0</span>
-                    </div>
+                    <span class="coin-page__price-number" id="balance">0</span>
+                </div>
                 <div class="coin-page__price">
                     <span class="coin-page__price-sign">$</span>
                     <span class="coin-page__price-number" id="balanceUSD">0</span>
                 </div>
                 <div class="coin-page__price">
-                        <span class="coin-page__price-sign">₿</span>
-                        <span class="coin-page__price-number" id="balanceBTC">0</span>
-                    </div>
+                    <span class="coin-page__price-sign">
+                        <i class="fab fa-btc"></i>
+                    </span>
+                    <span class="coin-page__price-number" id="balanceBTC">0</span>
+                </div>
                 <div class="announcement announcement--sponsored">
                     <!-- /8691100/Coinranking_S2S_AnnouncementTextlink -->
                     <div id="bsa-zone_1517264005479-0_123456"></div>
@@ -86,27 +102,67 @@
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
 
-    <div class="container">
-		
-		<div class="row">
-		<div class="col-4" id="date" style="background-color:#ccc;border-radius:20px"></div>
-		<div class="col-4" id="total" style="background-color:#ccc;border-radius:20px"></div>
-		</div>
-		
+    <div class="container-fluid">
+
         <div class="row">
-        <div class="col-7" id="cy"></div>     
-        <div class="col-5" id="pie"></div>
-		</div>
+            <div class="col-3" id="ticker">
+                <div class="container" style="margin-bottom: 20px">
+                    <div class="row">
+                        <div class="graph">
+                            <svg viewBox="0 0 250 60" width="300" height="90">
+                                <path d="M 209.328 17.34 C 221.956 17.588 235.264 32.599 250 22.328" fill="none" vector-effect="non-scaling-stroke" stroke-width="2"
+                                    stroke="rgb(243,243,250)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3"></path>
+                                <linearGradient id="_lgradient_1" x1="0%" y1="50%" x2="100%" y2="50%">
+                                    <stop offset="0%" stop-opacity="1" style="stop-color:rgb(120,113,255);"></stop>
+                                    <stop offset="100%" stop-opacity="1" style="stop-color:rgb(111,234,255);"></stop>
+                                </linearGradient>
+                                <path d=" M 0 43.634 C 5.934 43.634 11.318 51.209 17.462 51.342 C 33.219 51.683 30.603 59.567 39.187 59.868 C 46.963 60.141 50.44 44.192 60.537 43.77 C 69.126 43.77 72.129 52.461 79.739 52.433 C 90.904 52.433 94.93 38.455 106.648 39.78 C 129.082 42.317 124.556 27.606 139.157 27.177 C 153.758 26.747 158.235 44.485 171.96 44.725 C 196.438 45.155 189.782 17.1 208.248 17.1"
+                                    fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="url(#_lgradient_1)"
+                                    stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3"></path>
+                                <path d="M 206.649 17.218 C 206.649 15.739 207.85 14.538 209.328 14.538 C 210.807 14.538 212.008 15.739 212.008 17.218 C 212.008 18.696 210.807 19.897 209.328 19.897 C 207.85 19.897 206.649 18.696 206.649 17.218 Z"
+                                    fill="rgb(111,232,255)"></path>
+                                <text transform="matrix(1,0,0,1,195,5)" style="font-family:&amp;quot;Open Sans&amp;quot;;font-weight:700;font-size:12px;font-style:normal;fill:#6fe8ff;stroke:none;">+14%</text>
+                            </svg>
+                            <div class="stock">
+                                <div class="stock-info">
+                                    <p class="stock-name" style="font-size:24px">Balance
+                                        <span class="stock-name" style="font-size:24px" id="total">Total</span>
+                                    </p>
+                                </div>
+                            </div>
 
- 
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="date">
+                            <div class="stock">
+                                <div class="stock-info">
+                                    <p class="stock-name" style="font-size:24px" id="date">Date</p>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" id="cy"></div>
+            <div class="col-5" id="pie"></div>
+        </div>
+    </div>
+
 
     <script src="js/test.js"></script>
 
     <script src="js/cytoscape-cola.js"></script>
     <script src="js/cytoscape-qtip.js"></script>
-	<script src="js/piechart.js"></script>
+    <script src="js/piechart.js"></script>
 
 </body>
 

@@ -1,5 +1,6 @@
 .header {
-    padding: 20px 22px 21px 30px;
+    width:100%;
+    padding: 20px 15px 21px 15px;
     margin-bottom: 40px;
     background-color: #fff;
     display: -webkit-box;
@@ -347,3 +348,65 @@
     margin-bottom: 120px;
 }
 
+.container {
+    max-width: 1200px !important;
+}
+
+
+
+body {
+    height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  }
+    
+    .stock {
+    margin: 0;
+    margin-left: 20px;
+    top: 25px;
+    margin-top: 20px;
+}
+  
+  .stock-logo {
+    position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  margin-right: 10px;
+    
+  }
+  
+  .stock-logo i {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  
+  .graph {
+    display: inline-block;
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 22px -8px #808080;
+  box-shadow: 0px 0px 22px -8px #808080;
+  }
+
+  .date {
+    display: inline-block;
+  width: 320px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 22px -8px #808080;
+  box-shadow: 0px 0px 22px -8px #808080;
+  }

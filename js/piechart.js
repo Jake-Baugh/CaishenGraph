@@ -35,8 +35,7 @@ svg.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 var key = function(d){ return d.data.label; };
 
 var color = d3.scale.ordinal()
-	.domain(["Lorem ipsum", "dolor sit", "amet", "consectetur", "adipisicing", "elit", "sed", "do", "eiusmod", "tempor", "incididunt"])
-	.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+	.range(["#acacac", "#b9b9b9", "#c6c6c6", "#d3d3d3", "#dfdfdf", "#ececec", "#f9f9f9"]);
 
 function randomData (){
 	var labels = color.domain();
